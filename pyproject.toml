@@ -1,0 +1,9 @@
+[project]
+name = "kalm-lms"
+version = "1.0.0"
+description = "Kalm-LMS: A calm, progressive Python exam-prep & engineering mastery curriculum with 132 guided activities, 20 real-world master projects, and 20 refactoring missions."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["activities", "master_projects", "refactoring_projects"]
+pythonpath = ["."]
